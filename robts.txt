@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://danielriegoor.github.io/portfolio/sitemap.xml
-Sitemap: https://danielriegoor.github.io/portfolio/sitemap.xml?version=1.0
