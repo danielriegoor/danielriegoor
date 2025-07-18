@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://fontmeme.com/permalink/250718/c8f447c86831fa0b9e488b0ccb9efb6e.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
+  <img src="https://fontmeme.com/permalink/250718/afcc14e73419ad85fdfefcb44074ff9f.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
 </div>
 <br><br>
 <div align="center">
