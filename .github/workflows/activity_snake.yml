@@ -1,8 +1,8 @@
-name: Generate Snake from activity
+name: Generate Activity Graph
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Roda a cada 6 horas
+    - cron: '0 */12 * * *' # Roda a cada 12 horas
   workflow_dispatch:
 
 jobs:
@@ -10,21 +10,26 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    name: Generate Snake
+    name: Generate Activity Graph
     steps:
       - uses: actions/checkout@v4
-      - uses: Platane/snk@v3
+      - uses: Ashutosh00710/github-readme-activity-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
-          # Gera a snake a partir do gráfico de contribuições
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          CUSTOM_TITLE: "A Jornada do Herói (Último Ano)"
+          THEME: "custom"
+          CUSTOM_COLOR_THEME: "53,138,30,168,134,70,247,214,24,30,82,35,123,101,56"
+          HIDE_BORDER: "true"
+          AREA: "true"
+          OUTPUT: "activity-graph.svg"
 
-      - name: Push generated file
+      - name: Push generated file to the output-graph branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output-snake
-          build_dir: dist
-          # Especifica o arquivo exato a ser enviado
-          PAT: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: output-graph
+          build_dir: .
+        # ---> A CORREÇÃO FINAL ESTÁ AQUI <---
+        # Colocando a chave GITHUB_TOKEN no lugar correto (env).
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
