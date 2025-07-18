@@ -1,11 +1,7 @@
 <div align="center">
-  <img src="https://fontmeme.com/permalink/250718/4d8c62b271512f5a65c26ef421b8d655.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
+  <img src="https://fontmeme.com/permalink/250718/c8f447c86831fa0b9e488b0ccb9efb6e.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
 </div>
-
-<p align="center">
-  <em>Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, <br>sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
-</p>
-
+<br><br>
 <div align="center">
   <table style="border: 2px solid #555; background-color: #000000a0; border-radius: 10px; padding: 15px;">
     <tr>
