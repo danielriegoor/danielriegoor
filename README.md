@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://fontmeme.com/permalink/240718/734237c059c9c37734a33116a4a72e70.png" alt="zelda-font" border="0">
+  <img src="https://fontmeme.com/permalink/250718/4d8c62b271512f5a65c26ef421b8d655.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
 </div>
 
 <p align="center">
-  <em>Bem-vindo à minha quest! Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
+  <em>Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
 </p>
 
 <div align="center">
@@ -56,7 +56,7 @@
 ### 🐍 Rastro de Contribuições 🐍
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 ---
