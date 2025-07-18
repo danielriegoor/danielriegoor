@@ -27,7 +27,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
           FILENAME: dist/zelda_contrib_graph.svg
-          THEME: 'alugard' # Um tema com verdes e vibe de RPG
+          # ---> CORREÇÃO DO TEMA AQUI <---
+          # Trocamos 'alugard' por 'gruvbox', um tema válido com cores de RPG.
+          THEME: 'gruvbox'
           HIDE_BORDER: true
           AREA: true
           CUSTOM_TITLE: "A Jornada do Herói (Último Ano)"
