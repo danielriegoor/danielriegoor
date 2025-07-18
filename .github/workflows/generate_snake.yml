@@ -17,12 +17,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # ----> AQUI ESTÁ A CORREÇÃO! <----
+      # Adicionamos este passo para criar a pasta 'dist' antes de usá-la.
+      - name: Create output directory
+        run: mkdir -p dist
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Gera o arquivo .svg, que é o que queremos
+          # O caminho de saída continua o mesmo, mas agora a pasta vai existir.
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Push generated file to the output branch
