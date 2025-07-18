@@ -1,23 +1,74 @@
-[ 𝐃𝐚𝐧𝐢𝐞𝐥 𝐑𝐢𝐞̂𝐠𝐨 - 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: 𝐑𝐢𝐞𝐠𝐨𝐬.𝐝𝐞𝐯 { 𝐡𝐮𝐛 }, 𝐉𝐨𝐛𝐬 𝐚𝐧𝐝 𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨 ]
+<div align="center">
+  <img src="https://fontmeme.com/permalink/240718/734237c059c9c37734a33116a4a72e70.png" alt="zelda-font" border="0">
+</div>
 
-🚀 Portifólio de Daniel Riêgo
+<p align="center">
+  <em>Bem-vindo à minha quest! Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
+</p>
 
-Bem-vindo ao repositório oficial de Daniel Riêgo.
+<div align="center">
+  <table style="border: 2px solid #555; background-color: #000000a0; border-radius: 10px; padding: 15px;">
+    <tr>
+      <td style="padding-right: 15px; border: none;">
+        <a href="https://github.com/danielriegoor">
+          <img height="180em" src="https://github-readme-stats.vercel.app/api?username=danielriegoor&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=fff&icon_color=aaa&text_color=ccc"/>
+        </a>
+      </td>
+      <td style="border: none;">
+        <a href="https://github.com/danielriegoor">
+          <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielriegoor&layout=compact&langs_count=7&theme=transparent&hide_border=true&title_color=fff&icon_color=aaa&text_color=ccc"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-Sou Daniel Riêgo:  Desenvolvedor Full Stack e futuros Arquiteto de Software, apaixonado por transformar ideias em soluções digitais robustas, escaláveis e eficientes.
-Encontre no Riegos.dev e no meu Portifólio: Artigos, blogs, códigos para Fork e informações úteis para auxiliar em sua carreira como DEV ou para parcerias.
-<br><br>
-🖇 Conecte-se comigo:
-<br>
-<a href="https://www.linkedin.com/in/danielriegoor/" target="_blank">
-  <img src="https://img.shields.io/badge/➧%20LinkedIn-3730a3?style=plastic" alt="LinkedIn - Daniel Riêgo"/>
-</a><br><br>
-🖺 Veja meu Portifólio:
-<br>
-<a href="https://daniel.riegos.dev" target="_blank">
-  <img src="https://img.shields.io/badge/➧%20Acesse-3730a3?style=plastic" alt="Portfólio - Daniel Riêgo"/>
-</a><br><br>
-𝘌𝘹𝘱𝘭𝘰𝘳𝘦 <a href="https://github.com/T-Riego/" target="_blank" alt="GitHub Tiago Riêgo">𝘯𝘰𝘴𝘴𝘰 </a> 𝘩𝘶𝘣 𝘥𝘦 𝘪𝘯𝘰𝘷𝘢𝘤̧𝘰̃𝘦𝘴:<br>
-<a href="https://riegos.dev" target="_blank">
-  <img src="https://img.shields.io/badge/➧%20Riegos.dev-3730a3?style=plastic" alt="Hub Riegos.dev"/>
-</a>
+---
+
+### 🗃️ Inventário de Skills 🗃️
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aiscript,angular,babel,bash,cloudflare,css,debian,devto,docker,fastapi,figma,git&theme=dark" />
+  </a>
+  <br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=github,githubactions,gmail,html,htmx,ai,js,jest,linkedin,linux,netlify,nextjs&theme=light" />
+  </a>
+  <br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,npm,pnpm,postgres,py,react,redhat,redux,regex,svg,tailwind,ts,ubuntu,vercel,vite,vscode,windows,yarn&theme=dark" />
+  </a>
+</p>
+
+---
+
+### 🏆 Troféus Desbloqueados 🏆
+
+<p align="center"> 
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=danielriegoor&theme=dracula&no-frame=true&column=9&margin-w=15&margin-h=15" alt="Trophies" />
+  </a>
+</p>
+
+---
+
+### 🐍 Rastro de Contribuições 🐍
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output/snake.svg" alt="Snake animation" />
+</div>
+
+---
+
+### 🤝 Fale com o Herói 🤝
+
+<p align="center">
+  <a href="https://riegos.dev" target="_blank"><img src="https://img.shields.io/badge/Hub_de_Inovações-4A00E0?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDg2IDIgMiA2LjQ4NiAyIDEyczQuNDg2IDEwIDEwIDEwIDEwLTQuNDg2IDEwLTEwUzE3LjUxNCAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4IDggOCAzLjU5IDggOC0zLjU5IDgtOCA4eiIvPjxwYXRoIGQ9Ik0xMSAxMWgydjZoLTJ6bTAgLTZoMnYyaC0yeiIvPjwvc3ZnPg==" alt="Hub"/></a>
+  <a href="https://github.com/danielriegoor" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/danielriegoor/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://wa.me/+5531993789275" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+  <a href="mailto:danielriegodevjobs@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://instagram.com/danielriegoor" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://facebook.com/riegodaniel" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+</p>
