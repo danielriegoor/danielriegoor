@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <em>Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
+  <em>Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, <br>sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
 </p>
 
 <div align="center">
