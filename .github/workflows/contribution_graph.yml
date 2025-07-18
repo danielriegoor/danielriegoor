@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 */12 * * *' # Roda a cada 12 horas
   workflow_dispatch:
-
+    
 jobs:
   build:
     permissions:
@@ -13,7 +13,7 @@ jobs:
     name: Generate Activity Graph
     steps:
       - uses: actions/checkout@v4
-      - uses: ashutosh00710/github-readme-activity-graph@main
+      - uses: ashutosh00710/github-readme-activity-graph@v1 # <--- A JOGADA DE MESTRE ESTÁ AQUI
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
