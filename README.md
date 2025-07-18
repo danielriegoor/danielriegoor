@@ -53,10 +53,10 @@
 
 ---
 
-### 🗺️ A Jornada do Herói 🗺️
+### 📜 A Jornada do Herói 📜
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-zelda/zelda_contrib_graph.svg" alt="Jornada de Contribuições" />
+  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-graph/activity-graph.svg" alt="Jornada de Contribuições" />
 </div>
 
 ---
