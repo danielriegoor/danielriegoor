@@ -1,0 +1,30 @@
+name: Generate Snake from activity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Roda a cada 6 horas
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    name: Generate Snake
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Gera a snake a partir do gráfico de contribuições
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push generated file
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-snake
+          build_dir: dist
+          # Especifica o arquivo exato a ser enviado
+          PAT: ${{ secrets.GITHUB_TOKEN }}
