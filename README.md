@@ -56,7 +56,7 @@
 ### 📜 A Jornada do Herói 📜
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-graph/activity-graph.svg" alt="Jornada de Contribuições" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danielriegoor&bg_color=0D1117&color=c9d1d9&line=a88646&point=f7d618&area=true&hide_border=true&custom_title=A%20Jornada%20do%20Her%C3%B3i%20(Último%20Ano)" alt="Jornada de Contribuições" />
 </div>
 
 ---
