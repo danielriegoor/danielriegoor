@@ -11,14 +11,17 @@ on:
 
 jobs:
   build:
+    # ---> A GRANDE CORREÇÃO ESTÁ AQUI <---
+    # Adicionamos o bloco de permissões para permitir que a Action escreva no repositório.
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ----> AQUI ESTÁ A CORREÇÃO! <----
-      # Adicionamos este passo para criar a pasta 'dist' antes de usá-la.
       - name: Create output directory
         run: mkdir -p dist
 
@@ -27,7 +30,6 @@ jobs:
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          # O caminho de saída continua o mesmo, mas agora a pasta vai existir.
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Push generated file to the output branch
