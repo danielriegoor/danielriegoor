@@ -1,0 +1,35 @@
+name: Generate Activity Graph
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Roda a cada 12 horas
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    name: Generate Activity Graph
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ashutosh00710/github-readme-activity-graph@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          # ---> Customização Hyrule <---
+          CUSTOM_TITLE: "A Jornada do Herói (Último Ano)"
+          THEME: "custom"
+          CUSTOM_COLOR_THEME: "53,138,30,168,134,70,247,214,24,30,82,35,123,101,56"
+          HIDE_BORDER: "true"
+          AREA: "true"
+          # Arquivo de saída
+          OUTPUT: "activity-graph.svg"
+
+      - name: Push generated file to the output-graph branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-graph
+          build_dir: .
+          # Especifica o arquivo exato a ser enviado
+          PAT: ${{ secrets.GITHUB_TOKEN }}
