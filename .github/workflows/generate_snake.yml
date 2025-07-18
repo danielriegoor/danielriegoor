@@ -3,16 +3,12 @@
 name: Generate Snake
 
 on:
-  # Roda a cada 6 horas
   schedule:
     - cron: "0 */6 * * *"
-  # Permite que você rode essa action manualmente pela aba Actions do GitHub
   workflow_dispatch:
 
 jobs:
   build:
-    # ---> A GRANDE CORREÇÃO ESTÁ AQUI <---
-    # Adicionamos o bloco de permissões para permitir que a Action escreva no repositório.
     permissions:
       contents: write
 
@@ -27,10 +23,10 @@ jobs:
 
       - name: Generate snake animation
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # A correção definitiva está aqui: usando 'outputs'
+          outputs: dist/github-contribution-grid-snake.svg
 
       - name: Push generated file to the output branch
         uses: crazy-max/ghaction-github-pages@v4
