@@ -13,7 +13,7 @@ jobs:
     name: Generate Activity Graph
     steps:
       - uses: actions/checkout@v4
-      - uses: ashutosh00710/github-readme-activity-graph@master
+      - uses: ashutosh00710/github-readme-activity-graph@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
