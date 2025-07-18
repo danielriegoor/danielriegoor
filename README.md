@@ -53,10 +53,14 @@
 
 ---
 
-### 📜 A Jornada do Herói 📜
+### 🐍 A Serpente de Hyrule 🐍
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danielriegoor&bg_color=0D1117&color=c9d1d9&line=a88646&point=f7d618&area=true&hide_border=true&custom_title=A%20Jornada%20do%20Her%C3%B3i%20(Último%20Ano)" alt="Jornada de Contribuições" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-snake/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-snake/github-contribution-grid-snake.svg" />
+    <img alt="snake" src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-snake/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ---
