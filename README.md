@@ -1,17 +1,31 @@
 <div align="center">
-  <img src="./zelda-title.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
+  <img src="https://fontmeme.com/permalink/250718/2650e9a35a28b74a5f5c9304294f1eff.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
 </div>
-
+<br><br>
+<div align="center">
+  <img src="https://fontmeme.com/permalink/250718/8049c8ca894ba37d1ce612e8268269e6.png" alt="A lenda do DEV" border="0">
+</div>
+<div align="center">
+  <img src="https://fontmeme.com/permalink/250718/45a6da3f1529878103725722747d0b2a.png" alt="Zelda caracters" border="0">
+</div>
+<br>
 <p align="center">
-  <em>Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
-</p>
-
+  <div align="center">
+  𖣘 <img src="https://fontmeme.com/permalink/250718/95dc5e779d4c63043e36a0b9451c8b99.png" alt="Quem sou" border="0"> 𖣘 
+</div>
+<div align="center">
+ ⮂ <img src="https://fontmeme.com/permalink/250718/65bcd777e86ceb9c41cf57edde5f02a0.png" alt="Título" border="0"> ⮂ 
+</div> 
+<div align="center">
+ ꚰ <img src="https://fontmeme.com/permalink/250718/53ebee4683522f958727e270b1fe8c60.png" alt="Localização" border="0"> ꚰ
+</div>
+<br>
 <div align="center">
   <table style="border: 2px solid #555; background-color: #000000a0; border-radius: 10px; padding: 15px;">
     <tr>
       <td style="padding-right: 15px; border: none;">
         <a href="https://github.com/danielriegoor">
-          <img height="180em" src="https://github-readme-stats.vercel.app/api?username=danielriegoor&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=fff&icon_color=aaa&text_color=ccc&cache_bust=1"/>
+          <img height="180em" src="https://github-readme-stats.vercel.app/api?username=danielriegoor&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=fff&icon_color=aaa&text_color=ccc"/>
         </a>
       </td>
       <td style="border: none;">
@@ -53,14 +67,10 @@
 
 ---
 
-### 🐍 A Serpente de Hyrule 🐍
+### 🐍 Rastro de Contribuições 🐍
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-snake/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-snake/github-contribution-grid-snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-snake/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 ---
