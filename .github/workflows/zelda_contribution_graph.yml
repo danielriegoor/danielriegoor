@@ -3,37 +3,49 @@
 name: Generate Zelda Style Contribution Graph
 
 on:
+  # Roda a cada 12 horas
   schedule:
-    # Roda a cada 12 horas
     - cron: '0 */12 * * *'
   # Permite rodar manualmente
   workflow_dispatch:
 
 jobs:
   build:
+    # Permissões para a Action poder escrever no repositório
     permissions:
       contents: write
+
+    # Sistema operacional onde a Action vai rodar
     runs-on: ubuntu-latest
     name: Generate Contribution Graph
-    steps:
-      - uses: actions/checkout@v4
 
+    steps:
+      # 1. Baixa o código do seu repositório para a Action poder usar
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Cria a pasta 'dist' que vai guardar a imagem gerada
       - name: Create output directory
         run: mkdir -p dist
 
+      # 3. Roda a Action principal que gera o gráfico
       - name: Generate RPG Graph
         uses: yokoffing/activity-graph@v1.2.5
         with:
+          # Token de autenticação (secreto e seguro)
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Seu nome de usuário do GitHub
           GITHUB_USERNAME: ${{ github.repository_owner }}
+          # Nome do arquivo de saída
           FILENAME: dist/zelda_contrib_graph.svg
-          # ---> CORREÇÃO DO TEMA AQUI <---
-          # Trocamos 'alugard' por 'gruvbox', um tema válido com cores de RPG.
+          # Tema de cores escolhido
           THEME: 'gruvbox'
+          # Opções de customização visual
           HIDE_BORDER: true
           AREA: true
           CUSTOM_TITLE: "A Jornada do Herói (Último Ano)"
 
+      # 4. Pega o arquivo da pasta 'dist' e envia para a branch 'output-zelda'
       - name: Push generated file to the output-zelda branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
