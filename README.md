@@ -1,13 +1,17 @@
 <div align="center">
-  <img src="https://fontmeme.com/permalink/250718/afcc14e73419ad85fdfefcb44074ff9f.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
+  <img src="./zelda-title.png" alt="zelda-font-bem-vindo-a-minha-quest" border="0">
 </div>
-<br><br>
+
+<p align="center">
+  <em>Meu nome é <strong>[ 𖣘 Daniel Riêgo 𖣘 ]</strong>, sou <strong>[ ⮂ Full Stack Developer / AI Architect ⮂ ]</strong> de <strong>[ Belo Horizonte, Minas Gerais - Brasil ]</strong>.</em>
+</p>
+
 <div align="center">
   <table style="border: 2px solid #555; background-color: #000000a0; border-radius: 10px; padding: 15px;">
     <tr>
       <td style="padding-right: 15px; border: none;">
         <a href="https://github.com/danielriegoor">
-          <img height="180em" src="https://github-readme-stats.vercel.app/api?username=danielriegoor&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=fff&icon_color=aaa&text_color=ccc"/>
+          <img height="180em" src="https://github-readme-stats.vercel.app/api?username=danielriegoor&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&title_color=fff&icon_color=aaa&text_color=ccc&cache_bust=1"/>
         </a>
       </td>
       <td style="border: none;">
@@ -49,10 +53,10 @@
 
 ---
 
-### 🐍 Rastro de Contribuições 🐍
+### 🗺️ A Jornada do Herói 🗺️
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/danielriegoor/danielriegoor/output-zelda/zelda_contrib_graph.svg" alt="Jornada de Contribuições" />
 </div>
 
 ---
